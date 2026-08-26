@@ -1,9 +1,9 @@
 import requests
+import os 
+from dotenv import load_dotenv
 
-params = {
-    "name": "name",
-}
+load_dotenv()
 
-response = requests.get("https://api.github.com/users/octocat", params=params)
+api_key = os.getenv("API_KEY")
 
-print(response)
+print(api_key)
