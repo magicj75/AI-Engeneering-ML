@@ -1,4 +1,16 @@
-# AI-Engeneering-ML
-Practicing for AI Engeneering / ML
+# AI Engineering & ML
 
-<img width="736" height="736" alt="c3a39d0029bb52b9a9e27d509d9a7e68" src="https://github.com/user-attachments/assets/62388ee0-86aa-4c87-98cc-13c0baa8db76" />
+Learning repo from my first semester (Business Informatics, KIT).
+I build small projects to understand how LLMs, embeddings and agents work.
+
+## Projects
+
+| Project | What it does |
+|---|---|
+| [LLM_entry](LLM_entry) | CLI chatbot with chat history and token usage display |
+| [Embeddings_2](Embeddings_2) | Semantic search using embeddings |
+| [LLM-week11](LLM-week11) | LLM-based document summarizer |
+
+## Setup
+
+Requires Python and [uv](https://docs.astral.sh/uv/). Run `uv sync`, then see each project's README.
