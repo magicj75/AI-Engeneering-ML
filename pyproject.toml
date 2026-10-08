@@ -1,0 +1,20 @@
+[project]
+name = "ai-engeneering-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kian", email = "318531327+magicj75@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=1.12.1",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+ai-engeneering-ml = "ai_engeneering_ml:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
