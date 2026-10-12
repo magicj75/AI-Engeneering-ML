@@ -10,6 +10,7 @@ I build small projects to understand how LLMs, embeddings and agents work.
 | [LLM_entry](LLM_entry) | CLI chatbot with chat history and token usage display |
 | [Embeddings_2](Embeddings_2) | Semantic search using embeddings |
 | [LLM-week11](LLM-week11) | LLM-based document summarizer |
+| [claude_agent](claude_agent) | Claude tool-use agent with machine data |
 
 ## Setup
 
